@@ -1,0 +1,17 @@
+Project by M.Winkens (m.winkens@fz-juelich.de)
+Preprocessor-Commands for octree:
+
+BIGTEST //Test the octree with a main with a HUGE Tree
+
+OCDEBUGTEST //Activates ALL options under this one
+OCTEST //Test the octree with a main
+
+OCDEBUG //Activates ALL options UNDER this one
+
+
+OCDRAW //Activate the output when any draw-function, but I would not recommend drawing all nodes for debug
+OCINSERT //Activate the output for the insert
+OCDELETE //Activate the output for deleting the OCTree
+OCCLEAR //Activate the output for clear
+
+

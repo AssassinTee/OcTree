@@ -1,0 +1,26 @@
+M.Winkens@imedv16> make -j 4
+[ 50%] Building CXX object CMakeFiles/OcTree.dir/ocmainskalar.cpp.o
+In file included from /localdata/toolkits/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/core/vnl/vnl_c_vector.h:26:0,
+                 from /localdata/toolkits/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/core/vnl/vnl_vector.h:22,
+                 from /localdata/toolkits/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/core/vnl/vnl_vector_ref.h:20,
+                 from /localdata/toolkits/InsightToolkit-4.8.1/Modules/Core/Common/include/itkVector.h:23,
+                 from /localdata/toolkits/InsightToolkit-4.8.1/Modules/Core/Common/include/itkPoint.h:23,
+                 from /localdata/toolkits/InsightToolkit-4.8.1/Modules/Core/Common/include/itkContinuousIndex.h:21,
+                 from /localdata/toolkits/InsightToolkit-4.8.1/Modules/Core/Common/include/itkImageRegion.h:34,
+                 from /localdata/toolkits/InsightToolkit-4.8.1/Modules/Core/Common/include/itkImage.h:21,
+                 from /localdata/toolkits/AwesomeIO/src/awesomeIO/ReaderFactory.h:11,
+                 from /localdata/development/octree/src/ocmainskalar.cpp:6:
+/localdata/toolkits/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/core/vnl/vnl_numeric_traits.h:387:27: error: 'constexpr' needed for in-class initialization of static data member 'const float vnl_numeric_traits<float>::zero' of non-integral type [-fpermissive]
+/localdata/toolkits/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/core/vnl/vnl_numeric_traits.h:389:26: error: 'constexpr' needed for in-class initialization of static data member 'const float vnl_numeric_traits<float>::one' of non-integral type [-fpermissive]
+/localdata/toolkits/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/core/vnl/vnl_numeric_traits.h:391:29: error: 'constexpr' needed for in-class initialization of static data member 'const float vnl_numeric_traits<float>::maxval' of non-integral type [-fpermissive]
+/localdata/toolkits/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/core/vnl/vnl_numeric_traits.h:410:28: error: 'constexpr' needed for in-class initialization of static data member 'const double vnl_numeric_traits<double>::zero' of non-integral type [-fpermissive]
+/localdata/toolkits/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/core/vnl/vnl_numeric_traits.h:412:27: error: 'constexpr' needed for in-class initialization of static data member 'const double vnl_numeric_traits<double>::one' of non-integral type [-fpermissive]
+/localdata/toolkits/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/core/vnl/vnl_numeric_traits.h:414:30: error: 'constexpr' needed for in-class initialization of static data member 'const double vnl_numeric_traits<double>::maxval' of non-integral type [-fpermissive]
+/localdata/toolkits/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/core/vnl/vnl_numeric_traits.h:433:33: error: 'constexpr' needed for in-class initialization of static data member 'const long double vnl_numeric_traits<long double>::zero' of non-integral type [-fpermissive]
+/localdata/toolkits/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/core/vnl/vnl_numeric_traits.h:435:32: error: 'constexpr' needed for in-class initialization of static data member 'const long double vnl_numeric_traits<long double>::one' of non-integral type [-fpermissive]
+/localdata/toolkits/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/core/vnl/vnl_numeric_traits.h:437:35: error: 'constexpr' needed for in-class initialization of static data member 'const long double vnl_numeric_traits<long double>::maxval' of non-integral type [-fpermissive]
+make[2]: *** [CMakeFiles/OcTree.dir/ocmainskalar.cpp.o] Error 1
+make[1]: *** [CMakeFiles/OcTree.dir/all] Error 2
+make: *** [all] Error 2
+
+

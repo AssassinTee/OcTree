@@ -1,0 +1,5 @@
+#NEEDED PACKAGES:
+C++ Boost library: Filesystem (Needed for Serialization)
+
+#HOW TO COMPILE PROPERLY
+g++ -o <output name> -std=c++0x -lboost_system -lboost_filesystem -octree.cpp -DOCDEBUGTEST
