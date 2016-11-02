@@ -1,3 +1,5 @@
+M.Winkens@imedv16> make -j 4
+[ 50%] Building CXX object CMakeFiles/OcTree.dir/ocmainskalar.cpp.o
 In file included from /localdata/toolkits/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/core/vnl/vnl_c_vector.h:26:0,
                  from /localdata/toolkits/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/core/vnl/vnl_vector.h:22,
                  from /localdata/toolkits/InsightToolkit-4.8.1/Modules/ThirdParty/VNL/src/vxl/core/vnl/vnl_vector_ref.h:20,
@@ -20,4 +22,5 @@ In file included from /localdata/toolkits/InsightToolkit-4.8.1/Modules/ThirdPart
 make[2]: *** [CMakeFiles/OcTree.dir/ocmainskalar.cpp.o] Error 1
 make[1]: *** [CMakeFiles/OcTree.dir/all] Error 2
 make: *** [all] Error 2
+
 

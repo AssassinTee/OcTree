@@ -16,8 +16,8 @@
  *
  *=========================================================================*/
 
-#ifndef __itkTransformIOFactoryRegisterManager_h
-#define __itkTransformIOFactoryRegisterManager_h
+#ifndef itkTransformIOFactoryRegisterManager_h
+#define itkTransformIOFactoryRegisterManager_h
 
 namespace itk {
 
@@ -38,7 +38,7 @@ class TransformIOFactoryRegisterManager
 //  The following code is intended to be expanded at the end of the
 //  itkTransformFileReader.h and itkTransformFileWriter.h files.
 //
-void MatlabTransformIOFactoryRegister__Private(void);void HDF5TransformIOFactoryRegister__Private(void);void TxtTransformIOFactoryRegister__Private(void);
+void  MatlabTransformIOFactoryRegister__Private();void  HDF5TransformIOFactoryRegister__Private();void  TxtTransformIOFactoryRegister__Private();
 
 //
 // The code below registers available IO helpers using static initialization in

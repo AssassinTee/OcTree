@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /localdata/development/octree/src/build
 CMakeFiles/OcTree.dir/all:
 	$(MAKE) -f CMakeFiles/OcTree.dir/build.make CMakeFiles/OcTree.dir/depend
 	$(MAKE) -f CMakeFiles/OcTree.dir/build.make CMakeFiles/OcTree.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /localdata/development/octree/src/build/CMakeFiles  1 2
+	$(CMAKE_COMMAND) -E cmake_progress_report /localdata/development/octree/src/build/CMakeFiles  1 2 3
 	@echo "Built target OcTree"
 .PHONY : CMakeFiles/OcTree.dir/all
 
@@ -72,7 +72,7 @@ all: CMakeFiles/OcTree.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OcTree.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /localdata/development/octree/src/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /localdata/development/octree/src/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OcTree.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /localdata/development/octree/src/build/CMakeFiles 0
 .PHONY : CMakeFiles/OcTree.dir/rule

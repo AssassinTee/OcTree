@@ -1,5 +1,6 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/OcTree.dir/octree.cpp.o"
+  "CMakeFiles/OcTree.dir/ocnode.cpp.o"
   "CMakeFiles/OcTree.dir/ocmainskalar.cpp.o"
   "OcTree.pdb"
   "OcTree"

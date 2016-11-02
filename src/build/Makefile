@@ -138,6 +138,30 @@ ocmainskalar.cpp.s:
 	$(MAKE) -f CMakeFiles/OcTree.dir/build.make CMakeFiles/OcTree.dir/ocmainskalar.cpp.s
 .PHONY : ocmainskalar.cpp.s
 
+ocnode.o: ocnode.cpp.o
+.PHONY : ocnode.o
+
+# target to build an object file
+ocnode.cpp.o:
+	$(MAKE) -f CMakeFiles/OcTree.dir/build.make CMakeFiles/OcTree.dir/ocnode.cpp.o
+.PHONY : ocnode.cpp.o
+
+ocnode.i: ocnode.cpp.i
+.PHONY : ocnode.i
+
+# target to preprocess a source file
+ocnode.cpp.i:
+	$(MAKE) -f CMakeFiles/OcTree.dir/build.make CMakeFiles/OcTree.dir/ocnode.cpp.i
+.PHONY : ocnode.cpp.i
+
+ocnode.s: ocnode.cpp.s
+.PHONY : ocnode.s
+
+# target to generate assembly for a file
+ocnode.cpp.s:
+	$(MAKE) -f CMakeFiles/OcTree.dir/build.make CMakeFiles/OcTree.dir/ocnode.cpp.s
+.PHONY : ocnode.cpp.s
+
 octree.o: octree.cpp.o
 .PHONY : octree.o
 
@@ -174,6 +198,9 @@ help:
 	@echo "... ocmainskalar.o"
 	@echo "... ocmainskalar.i"
 	@echo "... ocmainskalar.s"
+	@echo "... ocnode.o"
+	@echo "... ocnode.i"
+	@echo "... ocnode.s"
 	@echo "... octree.o"
 	@echo "... octree.i"
 	@echo "... octree.s"

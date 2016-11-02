@@ -11,7 +11,7 @@ include( ${ITK_USE_FILE} )
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ./)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
-set(ITK_DIR /data/PLI-Core/Schubert/toolkits/ITK/InsightToolkit-4.4.0_build)
+#set(ITK_DIR /data/PLI-Core/Schubert/toolkits/ITK/InsightToolkit-4.4.0_build)
 
 add_definitions(--no-warnings)
 
@@ -21,16 +21,20 @@ include_directories ( ${ITK_INCLUDE_DIRS}
                         ${awesomeIO_INCLUDE_DIRS}
 			${OpenCV_LIBS}
 			${PROJECT_SOURCE_DIR}/../libs/cereal-1.2.1/include
-			
+			${PROJECT_SOURCE_DIR}/../header			
                     )
 add_definitions(-Wall)
+add_definitions(-fpermissive)
+add_definitions(-lboost_system)#this should not be needed
+add_definitions(-lboost_filesystem)#this should not be needed
 
 add_executable( 
         OcTree
         octree.cpp
+	ocnode.cpp
 	ocmainskalar.cpp
         )
-target_link_libraries( OcTree ${Boost_INCLUDE_DIRS}
+target_link_libraries( OcTree ${Boost_LIBRARIES}
 			 ${ITK_LIBRARIES}			
 			${awesomeIO_LIBS} 
 			${OpenCV_LIBS}
